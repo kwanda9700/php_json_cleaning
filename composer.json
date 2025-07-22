@@ -1,0 +1,24 @@
+{
+  "name": "kwanda/json-cleaner",
+  "description": "A PHP utility that attempts to recover partial or malformed JSON strings.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Kwanda\\JsonCleaner\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kwanda\\JsonCleaner\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
