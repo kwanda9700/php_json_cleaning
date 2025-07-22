@@ -1,6 +1,9 @@
-// src/Cleanup.php
+<?php
+
+namespace Kwanda\JsonCleaner;
+
 class JsonCleaner {
-    public function clean($input) {
+    public function clean(string $input): string {
         $stack = [];
         $inString = false;
         $result = '';
